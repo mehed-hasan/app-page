@@ -28,6 +28,7 @@ p{
     color: #000000;
     margin-top: 24px;
     margin-bottom: 24px;
+    text-transform: capitalize;
 }
 .waqs-hero-content p{
     font-family: 'Arial';
