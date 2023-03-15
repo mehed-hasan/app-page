@@ -6,7 +6,7 @@ p{
     margin-bottom: 0px !important;
 }
 .waqs-hero{
-    background-image: url('/assets/img/hero_background.jpg');
+    background-image: url('../img/hero_background.jpg');
     min-height: 700px;
     background-position: center;
     background-size: cover;
@@ -600,7 +600,7 @@ color: #000000;
     }
     .map-mobile{
         display: block;
-        background-image: url('/assets/img/map_bg.jpg');
+        background-image: url('./assets/img/map_bg.jpg');
         background-position: center;
         background-size: cover;
 
