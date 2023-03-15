@@ -217,10 +217,10 @@ width: 100%;
 
 }
 .mode_switcher{
-    width: 50px;
-    height: 30px;
+    width: 52px;
+    height: 32px;
     background-color: black;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 2px 5px;
     position: relative;
     cursor: pointer;
@@ -330,7 +330,8 @@ top: -8px;
     background: white;
     position: absolute;
     transition: 1s;
-    right: 5px;
+    right: 4px;
+    top: 3px;
 }
 
 

@@ -8,7 +8,7 @@
       <link href="https://kx-ilyn-shop-s3.s3.amazonaws.com" rel="preconnect" crossorigin="">
       <link href="https://cdnjs.cloudflare.com" rel="preconnect" crossorigin="">
       <!-- Meta Tags including title -->
-      <title>Waqt Al-Salah | ILYN</title>
+      <title>Waqt Al Salaah | ILYN</title>
       <link type="image/x-icon" rel="shortcut icon" href="./static/images/ILLIYEEN-Logo2.png">
       <!-- OG tag -->
       <!-- Open Graph / Facebook -->
@@ -57,7 +57,7 @@
             <img src="./assets/img/ILLIYEEN-Logo3.png" alt="ILLIYEEN" class="logo_scroll" id="logo_scroll">
             </a>
             <div class="logo_container" align="center">
-               <a href="/index.htm">
+               <a href="/index.html">
                <img src="./assets/img/ILLIYEEN-Logo.png" alt="ILLIYEEN" id="logo">
                </a>
             </div>
@@ -854,8 +854,11 @@
                       <div class="waqs-hero-content-left">
                           <img src="./assets/img/was_logo.png" />
                           <h1>Waqt Al Salaah: Prayer Times</h1>
-                          <p>Your ultimate prayer companion with accurate Prayer Times, Qibla Direction Anywhere, 
-                              Find Mosque, Islamic calendar, Count Tasbih anytime with Our Mobile App.
+                          <p>
+                           Your ultimate prayer companion offering accurate prayer notifications,
+                           Qibla direction from anywhere, nearby mosque locations, Islamic calendar,
+                           Tasbih counting and other convenient features accessible through 
+                           responsive and intuitive user experience!
                           </p>
                           <div class="desktop_marketplace  marketplace_image">
                               <a><img src="./assets/img/google_play store.png" alt="error"/></a>
@@ -883,7 +886,9 @@
               <div class="grid-container ">
                   <p class="text-center section-name">All Features</p>
                   <div class="waqs_heading text-center">
-                      <h1>Pray on time, every time with our easy-to-use app</h1>
+                      <h1>Designed to empower Muslims 
+                        with accuracy, convenience & elegance
+                        </h1>
                   </div>
   
   
@@ -894,7 +899,7 @@
                           </div>
                           <div class="feature-card-content">
                               <p>
-                                  Stay connected with your faith: never miss a prayer time again.
+                                 Wherever you are, get accurate timing of prayer at a glance.
                               </p>
                           </div>
                       </div>
@@ -905,7 +910,7 @@
                           </div>
                           <div class="feature-card-content">
                               <p>
-                                  Find your direction towards Mecca with ease and accuracy.
+                                 Find your direction towards the Ka’ba from any place.
                               </p>
                           </div>
       
@@ -925,7 +930,10 @@
                                   <label for="">Tasbih</label>
                               </div>
                               <p>
-                                  Enhance your spiritual journey with Tasbih: the perfect companion for your daily remembrance and meditation.
+                                 The customizable Tasbih 
+                                 helps you add any Du’a you want 
+                                 for daily Dhikr.
+
                               </p>
                           </div>
                           <div class="text-center mx-auto">
@@ -942,13 +950,14 @@
                           </div>
                           <div class="feature-card-content">
                               <p>
-                                  Stay on track with your daily Ramadan routine: Sehri and Iftar times at your fingertips.                            </p>
+                                 Get the sehri and iftar timetable from any location, all in one place.
+                                 </p>
                           </div>
                       </div>
                       <div class="feature-card half-card  feature-card-black d-flex flex-column space-around">
                           <div class="feature-card-content">
                               <p>
-                                  Find your direction towards Mecca with ease and accuracy.
+                                 The built-in Hijri Calendar displays Salah timings for any day of any year based on the Hijri date..
                               </p>
                           </div>
       
@@ -1054,7 +1063,7 @@
                                  <label for="">Find Mosque</label>
                              </div>
                              <p >
-                              Discover the nearest mosque with ease: Find Masjid helps you locate the closest place of worship wherever you are.
+                              Locate nearby mosques effortlessly from any place by connecting to the internet
                              </p>
                          </div>
                          
@@ -1154,7 +1163,9 @@
           <div  class="theme-section mt-24">
               <div class="grid-container">
                   <div class="waqs-heading text-center">
-                      <h1 class="mx-auto">Stay organized and focused on your prayers with our app.</h1>
+                      <h1 class="mx-auto">Choose from multiple color themes including the ‘Dark Mode’
+                        for an optimal experience!
+                       </h1>
                   </div>
                   <div class="switches text-center">
                       <div class="d-flex justify-center gap-24 mt-24 mb-24">
@@ -1215,9 +1226,13 @@
                   <div class="small-12 medium-6 xlarge-6">
                       <div class="newsletter_content">
                           <h1 class="">
-                              Waqt Al Salaah: Prayer Times - Never Miss a Prayer Again
+                           Waqt Al Salaah: Prayer Times,
+                           an essential app for all Muslims
+                           worldwide.
                           </h1>
-                          <p>Download the app to manage your projects, keep track of the progress, and complete tasks without procrastinating. </p>
+                          <p>
+                           Download the app and never miss salaah
+                            </p>
   
                           <div class="marketplace_image mt-24">
                               <a><img src="./assets/img/google_play store.png" alt="error"/></a>
@@ -1387,10 +1402,12 @@
         $(".mode_switcher").click(function(){
          // Day mode 
             if($(this).hasClass("active")){
+               $(".mode_text").text('Light Mode')
+
                 $(this).removeClass("active");
                 $(this).find(".switch_ball").css({
                     'left':'unset',
-                    'right':'5px'
+                    'right':'4px'
                 });
                 $(".day_switches").css({'display':'flex'});
                 $(".night_switches").css({'display':'none'});
@@ -1408,10 +1425,11 @@
 
             }else{
                // Night mode 
+               $(".mode_text").text('Night Mode')
                 $(this).addClass("active");
                 $(this).find(".switch_ball").css({
                     'right':'unset',
-                    'left': '5px'
+                    'left': '4px'
                 });
                 $(".day_switches").css({'display':'none'});
                 $(".night_switches").css({'display':'flex'});
