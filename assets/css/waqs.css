@@ -505,7 +505,7 @@ color: #000000;
         margin-top: 55px;
     }
     h1{
-        line-height: 40px !important;
+        line-height: 33px !important;
         font-size: 22px !important;
     }
     .desktop_marketplace{
@@ -578,6 +578,10 @@ color: #000000;
     }
     .map-card .feature-card-content {
         max-width: 350px !important;
+      }
+
+      .waqs-feature .section-name{
+        margin-bottom: 20px !important;
       }
 
 }
