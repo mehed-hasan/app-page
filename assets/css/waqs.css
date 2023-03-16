@@ -1,12 +1,12 @@
 
 p{
-    margin: 0px !important;
+    margin-bottom: 0px !important;
 }
 .switch{
     margin-bottom: 0px !important;
 }
 .waqs-hero{
-    background-image: url('../img/hero_background.jpg');
+    background-image: url('../img/hero_background.webp');
     min-height: 700px;
     background-position: center;
     background-size: cover;
@@ -112,6 +112,12 @@ opacity: 0.8;
 .mx-auto{
     margin: auto;
 }
+.me-auto{
+    margin-right: auto;
+}
+.ms-auto{
+    margin-left: auto;
+}
 .card-water-mark{
     margin-bottom: 20px;
 }
@@ -196,7 +202,6 @@ img{
 .newsletter_content p{
     max-width: 544px;
     width: 100%;
-    margin: auto;
 }
 
 
@@ -383,7 +388,7 @@ color: #000000;
 
 
 .desktop_marketplace{
-    display: block;
+    display: flex;
 }
 .mobile_marketplace{
     display: none;
@@ -486,8 +491,17 @@ color: #000000;
         margin: auto;
 
     }
+    .newsletter .marketplace_image>div:nth-child(1){
+        margin-left: auto;
+    }
+    .newsletter .marketplace_image>div:nth-child(2){
+        margin-right: auto;
+    }
     .map-card .feature-card-content {
         max-width: 450px !important;
+      }
+      .newsletter_content p{
+        margin: auto;
       }
 }
 
@@ -538,7 +552,7 @@ color: #000000;
         margin-bottom: 24px;
     }
     .newsletter_content .marketplace_image img{
-        width: 30%;
+        width: 90%;
     }
     .waqs-hero {
         background-position:calc(80%);
@@ -592,7 +606,7 @@ color: #000000;
         margin-bottom: 20px !important;
       }
       .powered-by img {
-        padding: 30px;
+        padding: 0px;
       }
 
 }
@@ -616,7 +630,7 @@ color: #000000;
     }
     .map-mobile{
         display: block;
-        background-image: url('../img/map_bg.jpg');
+        background-image: url('../img/map_bg.webp');
         background-position: center;
         background-size: cover;
 
