@@ -1168,22 +1168,7 @@
                   </div>
 
                   <!-- Calling images  -->
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_1.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_2.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_3.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_4.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_5.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_6.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_7.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_8.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_9.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_10.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_11.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_12.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_13.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_14.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_15.png">
-                  <img style="display:none;" class=" display-image" src="./assets/img/thems/switch_16.png">
+
                   <!-- Calling images ended -->
                   <div class="switches text-center">
                       <div class="d-flex justify-center gap-24 mt-24 mb-24">
@@ -1196,32 +1181,32 @@
                       </div>
                       <div class="day_switches d-flex justify-center ">
                         <div class="switch-group d-flex align-center">
-                           <div id="switch_1" class="switch active"></div>
-                           <div id="switch_2" class="switch"></div>
-                           <div id="switch_3" class="switch"></div>
-                           <div id="switch_4" class="switch"></div>
+                           <div id="switch-1" class="switch active"></div>
+                           <div id="switch-2" class="switch"></div>
+                           <div id="switch-3" class="switch"></div>
+                           <div id="switch-4" class="switch"></div>
                         </div>
 
                         <div class="switch-group d-flex">
-                           <div id="switch_5" class="switch"></div>
-                           <div id="switch_6" class="switch"></div>
-                           <div id="switch_7" class="switch"></div>
-                           <div id="switch_8" class="switch"></div>
+                           <div id="switch-5" class="switch"></div>
+                           <div id="switch-6" class="switch"></div>
+                           <div id="switch-7" class="switch"></div>
+                           <div id="switch-8" class="switch"></div>
                           </div>
                        </div>
                       <div class="night_switches d-flex justify-center">
                            <div class="switch-group d-flex">
-                              <div id="switch_9" class="switch"></div>
-                              <div id="switch_10" class="switch"></div>
-                              <div id="switch_11" class="switch"></div>
-                              <div id="switch_12" class="switch"></div>
+                              <div id="switch-9" class="switch"></div>
+                              <div id="switch-10" class="switch"></div>
+                              <div id="switch-11" class="switch"></div>
+                              <div id="switch-12" class="switch"></div>
                            </div>
 
                            <div class="switch-group d-flex">
-                              <div id="switch_13" class="switch"></div>
-                              <div id="switch_14" class="switch"></div>
-                              <div id="switch_15" class="switch"></div>
-                              <div id="switch_16" class="switch"></div>
+                              <div id="switch-13" class="switch"></div>
+                              <div id="switch-14" class="switch"></div>
+                              <div id="switch-15" class="switch"></div>
+                              <div id="switch-16" class="switch"></div>
                            </div>
                         </div>
                       </div>
@@ -1231,7 +1216,7 @@
               </div>
   
               <div  class="theme-display" style="padding-top: 25px;">
-                  <img class=" display-image" src="./assets/img/thems/switch_1.png">
+                  <img class=" display-image" src="./assets/img/thems/switch-1.png">
               </div>
               
         
@@ -1412,7 +1397,7 @@
 
         // Inline js 
         $(document).ready(function(){
-         $("#switch_1").click(); //Start with this
+         $("#switch-1").click(); //Start with this
         })
         $(".mode_switcher").click(function(){
          // Day mode 
@@ -1426,7 +1411,7 @@
                 });
                 $(".day_switches").css({'display':'flex'});
                 $(".night_switches").css({'display':'none'});
-                $("#switch_1").click(); //Start with this 
+                $("#switch-1").click(); //Start with this 
 
                //  Bg changing 
                 $(".theme-display").css({'background':'white'});
@@ -1450,7 +1435,7 @@
                 $(".night_switches").css({'display':'flex'});
                
 
-                $("#switch_9").click(); //Start with this 
+                $("#switch-9").click(); //Start with this 
 
                 $(".theme-display").css({'background':'black'});
                 $(".theme-section").css({'background':'black'});
@@ -1476,7 +1461,7 @@
             setTimeout(() => {
                $(this).attr('class','switch active');
             }, 100);
-            $(".display-image").attr('src', './assets/img/thems/'+$image_name+'.png');
+            $(".display-image").attr('src', './assets/img/thems/'+$image_name+'.webp');
           })
 		});
     </script>

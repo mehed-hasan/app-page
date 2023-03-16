@@ -275,53 +275,53 @@ top: -8px;
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* .switch_colors code  */
-#switch_1{
+/* .switch-colors code  */
+#switch-1{
  background-color: #006A6A;
 }
-#switch_2{
+#switch-2{
  background-color: #006B5B;
 }
-#switch_3{
+#switch-3{
  background-color: #4F6603;
 }
-#switch_4{
+#switch-4{
  background-color: #954A03;
 }
-#switch_5{
+#switch-5{
  background-color: #0062A0;
 }
-#switch_6{
+#switch-6{
  background-color: #6B4EA2;
 }
-#switch_7{
+#switch-7{
  background-color: #B80464;
 }
-#switch_8{
+#switch-8{
  background-color: #973F6F;
 }
-#switch_9{
+#switch-9{
  background-color: #4CDADA;
 }
-#switch_10{
+#switch-10{
  background-color: #59DBC1;
 }
-#switch_11{
+#switch-11{
  background-color: #B4D269;
 }
-#switch_12{
+#switch-12{
  background-color: #FFB786;
 }
-#switch_13{
+#switch-13{
  background-color: #9BCAFF;
 }
-#switch_14{
+#switch-14{
  background-color: #D3BBFF;
 }
-#switch_15{
+#switch-15{
  background-color: #FFB0C8;
 }
-#switch_16{
+#switch-16{
  background-color: #FFAFD4;
 }
  .switch_ball{
@@ -354,7 +354,8 @@ color: #000000;
     gap: 15px;
 }
 .day_switches,.night_switches{
-    max-width: 560px;
+    /* max-width: 560px; */
+    max-width: 440px; 
     margin: auto;
     padding: 15px;
 
