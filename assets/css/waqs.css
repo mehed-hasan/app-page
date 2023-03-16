@@ -369,8 +369,8 @@ color: #000000;
     transition: .5s;
 }
 .night_switches .switch{
-    height:30px;
-    width: 30px;
+    /* height:30px;
+    width: 30px; */
 }
 
 
