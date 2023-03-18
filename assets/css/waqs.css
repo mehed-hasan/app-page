@@ -186,6 +186,8 @@ img{
 }
 .powered-by img{
     padding: 60px;
+    max-width: 708px;
+    width: 100%;
 }
 .newsletter{
     background-color: #E5E7E8;
@@ -616,6 +618,7 @@ color: #000000;
       }
       .powered-by img {
         padding: 0px;
+       
       }
 
 }
