@@ -308,7 +308,8 @@ img {
     position: absolute;
     right: -10px;
     top: -8px;
-    background: url('./../img/tik.webp') center/cover no-repeat;
+    background: url('./../img/tik.webp') no-repeat center;
+    background-size: cover;
     height: 18px;
     width: 18px
 }
@@ -513,11 +514,11 @@ p.mode_text {
 
 @media screen and (max-width:764px) {
     .switch.active::after {
-        content: '';
-        position: absolute;
+        /* content: '';
+        position: absolute; */
         right: -8px;
         top: -9px;
-        background: url('./../img/tik.svg') center/cover no-repeat;
+        /* background: url('./../img/tik.svg') center/cover no-repeat; */
         height: 13px;
         width: 13px
     }
