@@ -42,6 +42,9 @@ p {
     width: 100%
 }
 
+.hero_image{
+    min-width: 572px;
+}
 .hero_image img {
     max-width: 572px;
     width: 100%
@@ -447,6 +450,10 @@ p.mode_text {
 }
 
 @media screen and (max-width:1250px) {
+
+    .hero_image{
+        min-width: 372px;
+    }
     h1 {
         font-size: 30px !important
     }
@@ -504,6 +511,15 @@ p.mode_text {
     .newsletter .marketplace_image>div:nth-child(2) {
         margin-right: auto
     }
+    .newsletter .marketplace_image{
+        flex-direction: column;
+    }
+    .newsletter .marketplace_image img{
+        width: 80px;
+    }
+    .newsletter .marketplace_image>div{
+        margin: auto !important;
+    }
     .map-card .feature-card-content {
         max-width: 450px !important
     }
@@ -513,6 +529,14 @@ p.mode_text {
 }
 
 @media screen and (max-width:764px) {
+
+
+    .hero_image{
+        min-width: 100%;
+    }
+    .wqs-logo{
+        max-width: 130px;
+    }
     .switch.active::after {
         /* content: '';
         position: absolute; */
@@ -550,7 +574,10 @@ p.mode_text {
         margin-bottom: 24px
     }
     .newsletter_content .marketplace_image img {
-        width: 90%
+        width: 75%
+    }
+    .newsletter .left-side{
+        width: 150%;
     }
     .waqs-hero {
         background-position: calc(80%)
