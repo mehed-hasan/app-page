@@ -576,6 +576,9 @@ p.mode_text {
     .newsletter_content .marketplace_image img {
         width: 75%
     }
+    .newsletter{
+        overflow-x: hidden;
+    }
     .newsletter .left-side{
         width: 150%;
     }
