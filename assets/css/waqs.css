@@ -514,9 +514,7 @@ p.mode_text {
     .newsletter .marketplace_image{
         flex-direction: column;
     }
-    .newsletter .marketplace_image img{
-        width: 80px;
-    }
+
     .newsletter .marketplace_image>div{
         margin: auto !important;
     }
@@ -574,7 +572,7 @@ p.mode_text {
         margin-bottom: 24px
     }
     .newsletter_content .marketplace_image img {
-        width: 75%
+        width: 135px;
     }
     .newsletter{
         overflow-x: hidden;
@@ -582,6 +580,10 @@ p.mode_text {
     .newsletter .left-side{
         width: 150%;
     }
+    .newsletter_content .marketplace_image{
+        gap: 12px;
+    }
+
     .waqs-hero {
         background-position: calc(80%)
     }
