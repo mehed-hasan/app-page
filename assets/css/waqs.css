@@ -492,6 +492,7 @@ p.mode_text {
     .waqs-feature .waqs_heading h1 {
         margin-bottom: 40px
     }
+    
     .newsletter h1 {
         line-height: 40px;
         font-size: 36px
@@ -506,19 +507,11 @@ p.mode_text {
         padding: 70px 15px;
         margin: auto;
     }
-    /* .newsletter .marketplace_image>div:first-child {
-        margin-left: auto
+    .marketplace_image {
+        justify-content: center;
+        align-items: center;
     }
-    .newsletter .marketplace_image>div:nth-child(2) {
-        margin-right: auto
-    }
-    .newsletter .marketplace_image{
-        flex-direction: column;
-    } */
 
-    /* .newsletter .marketplace_image>div{
-        margin: auto !important;
-    } */
     .map-card .feature-card-content {
         max-width: 450px !important
     }
